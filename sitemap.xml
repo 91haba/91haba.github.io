@@ -3,10 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://91haba.github.io/</loc>
-    <lastmod>2021-06-20T00:00:00+00:00</lastmod>
+    <lastmod>2021-08-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://91haba.github.io/categories/architecture/</loc>
+    <lastmod>2021-08-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://91haba.github.io/categories/</loc>
+    <lastmod>2021-08-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://91haba.github.io/tags/combine/</loc>
+    <lastmod>2021-08-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://91haba.github.io/categories/designpattern/</loc>
+    <lastmod>2021-08-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://91haba.github.io/tags/ios/</loc>
+    <lastmod>2021-08-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://91haba.github.io/post/</loc>
-    <lastmod>2021-06-20T00:00:00+00:00</lastmod>
+    <lastmod>2021-08-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://91haba.github.io/tags/swiftui/</loc>
+    <lastmod>2021-08-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://91haba.github.io/tags/</loc>
+    <lastmod>2021-08-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://91haba.github.io/categories/tutorial/</loc>
+    <lastmod>2021-08-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://91haba.github.io/post/viper/</loc>
+    <lastmod>2021-08-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://91haba.github.io/post/redirect/</loc>
     <lastmod>2021-06-20T00:00:00+00:00</lastmod>
@@ -15,9 +42,6 @@
     <lastmod>2021-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://91haba.github.io/tags/redirecturl/</loc>
-    <lastmod>2021-06-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://91haba.github.io/tags/</loc>
     <lastmod>2021-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://91haba.github.io/tags/demo/</loc>
@@ -31,9 +55,6 @@
   </url><url>
     <loc>https://91haba.github.io/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://91haba.github.io/categories/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://91haba.github.io/tags/css/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>

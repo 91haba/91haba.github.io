@@ -7,7 +7,7 @@
   <title>
     haba
       |
-      css
+      VIPER Architecture Pattern With SwiftUI &amp; Combine
 
 
     
@@ -56,12 +56,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
 
-  <link rel="canonical" href="/tags/css/" />
+  <link rel="canonical" href="/post/viper/" />
 
   
-  <link rel="alternate" type="application/rss+xml" href="/tags/css/index.xml" title="Habalopment" />
-
-
   
   
   
@@ -86,8 +83,8 @@
   <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://91haba.github.io/images/site-feature-image.png"/>
 
-<meta name="twitter:title" content="css"/>
-<meta name="twitter:description" content="haba&#39;s developgraphy"/>
+<meta name="twitter:title" content="VIPER Architecture Pattern With SwiftUI &amp; Combine"/>
+<meta name="twitter:description" content="Headings Raywenderlich Getting Started with the VIPER Architecture Pattern tutorial 번역 및 요약 정리"/>
 
 
 
@@ -96,6 +93,116 @@
 
   
   
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "post",
+        "name": "VIPER Architecture Pattern With SwiftUI \u0026 Combine",
+        "headline": "VIPER Architecture Pattern With SwiftUI \u0026 Combine",
+        "alternativeHeadline": "",
+        "description": "
+      
+        Headings Raywenderlich Getting Started with the VIPER Architecture Pattern tutorial 번역 및 요약 정리
+
+
+      
+
+
+    ",
+        "inLanguage": "en",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/91haba.github.io\/post\/viper\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "haba"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "haba"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "haba"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "haba"
+        },
+        "copyrightYear" : "2021",
+        "dateCreated": "2021-08-09T00:00:00.00Z",
+        "datePublished": "2021-08-09T00:00:00.00Z",
+        "dateModified": "2021-08-09T00:00:00.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "haba",
+            "url": "https://91haba.github.io",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/91haba.github.io\/favicons\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+        
+        "https://91haba.github.io/images/site-feature-image.png"
+
+
+      
+      ]
+
+    ,
+        "url" : "https:\/\/91haba.github.io\/post\/viper\/",
+        "wordCount" : "156",
+        "genre" : [ 
+      
+      "tutorial"
+
+    
+      
+        ,
+
+      
+      "architecture"
+
+    
+      
+        ,
+
+      
+      "designpattern"
+
+    ],
+        "keywords" : [ 
+      
+      "swiftui"
+
+    
+      
+        ,
+
+      
+      "combine"
+
+    
+      
+        ,
+
+      
+      "ios"
+
+    ]
+    }
+  </script>
+
+
 
 </head>
 <body>
@@ -257,37 +364,62 @@
         <div class="autopagerize_page_element">
           <div class="content">
   <div
-    class="archive 
+    class="post 
       animated fadeInDown
 
     "
   >
-    <ul class="list-with-title">
+    <div class="post-content">
       
-        <div class="listing-title">2019</div>
+      <div class="post-title">
+        <h1>VIPER Architecture Pattern With SwiftUI &amp; Combine</h1>
         
-          <ul class="listing">
-            <div class="listing-item">
-              <div class="listing-post">
-                <a href="/post/markdown-syntax/" title="Markdown Syntax Guide">Markdown Syntax Guide</a>
-                <div class="post-time">
-                  <span class="date"
-                    >
-                      11/3/2019
+          <div class="info">
+            <em class="fas fa-calendar-day"></em>
+            <span class="date"
+              >
+                9/8/2021
 
 
-                    </span
-                  >
-                </div>
-              </div>
-            </div>
-          </ul>
+              </span
+            >
+            <em class="fas fa-stopwatch"></em>
+            <span class="reading-time">One-minute read</span>
+          </div>
 
         
+      </div><h2 id="headings">Headings</h2>
+<p><a href="https://www.raywenderlich.com/8440907-getting-started-with-the-viper-architecture-pattern">Raywenderlich Getting Started with the VIPER Architecture Pattern</a> tutorial 번역 및 요약 정리</p>
+<h2 id="getting-started">Getting Started</h2>
+<ul>
+<li>The ContentView will launch the app’s other views as you build them.</li>
+<li>There are some helper views in the Functional Views group: one for wrapping the MapKit map view, a special “split image” view, which is used by the TripListCell. You’ll be adding these to the screen in a little bit.</li>
+<li>In the Entities group, you’ll see the classes related to the data model. Trip and Waypoint will serve later as the Entities of the VIPER architecture. As such, they just hold data and don’t include any functional logic.</li>
+<li>In the Data Sources group, there are the helper functions for saving or loading data.</li>
+<li>Peek ahead if you like in the WaypointModule group. This has a VIPER implementation of the Waypoint editing screen. It’s included with the starter so you can complete the app by the end of this tutorial.</li>
+</ul>
+</div>
+    <div class="post-footer">
+      <div class="info">
+        
+          <span class="separator"><a class="category" href="/categories/tutorial/">tutorial</a><a class="category" href="/categories/architecture/">architecture</a><a class="category" href="/categories/designpattern/">designpattern</a></span>
 
 
-      
-    </ul>
+
+
+        
+
+        
+          <span class="separator"><a class="tag" href="/tags/swiftui/">swiftui</a><a class="tag" href="/tags/combine/">combine</a><a class="tag" href="/tags/ios/">ios</a></span>
+
+
+
+
+        
+      </div>
+    </div>
+
+    
   </div>
 
 

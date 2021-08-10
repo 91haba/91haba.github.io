@@ -6,7 +6,18 @@
     <description>Recent content on Habalopment</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 20 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://91haba.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://91haba.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VIPER Architecture Pattern With SwiftUI &amp; Combine</title>
+      <link>https://91haba.github.io/post/viper/</link>
+      <pubDate>Mon, 09 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://91haba.github.io/post/viper/</guid>
+      
+        <description>Headings Raywenderlich Getting Started with the VIPER Architecture Pattern tutorial 번역 및 요약 정리</description>
+      
+    </item>
+    
     <item>
       <title>Redirect</title>
       <link>https://91haba.github.io/post/redirect/</link>
